@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/ContactUs"
+        android:layout_width="217dp"
+        android:layout_height="287dp"
+        android:layout_marginStart="182dp"
+        android:layout_marginLeft="182dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginRight="119dp"
+        android:layout_marginBottom="83dp"
+        android:text="Contact Us"
+        app:layout_constraintBottom_toTopOf="@+id/WebsiteBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/WebsiteBtn"
+        android:layout_width="226dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:layout_marginBottom="593dp"
+        android:text="Visit Our Website"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ContactUs" />
+</RelativeLayout>
